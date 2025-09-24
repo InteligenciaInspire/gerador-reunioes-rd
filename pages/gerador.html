@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de reuniões</title>
+    <link rel="stylesheet" href="../meu-site/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RD CRM Inspire+ | Gerador de reuniões</h1>
+        <div class="content-wrapper">
+            <form id="form-generator">
+                <legend>Preencha para gerar o título</legend>
+
+                <fieldset>
+                   <label for="deal_name">Nome do negócio:</label>
+                    <input type="text" name="deal_name" id="deal_name" placeholder="Ex.: Consultoria RD Station" required>
+
+                    <label for="meeting_type">Tipo de reunião:</label>
+                    <select name="meeting_type" id="meeting_type" required></select>
+
+                    <label for="user_scheduled">Responsável pelo agendamento:</label>
+                    <select name="user_scheduled" id="user_scheduled" required></select>
+
+                    <label for="meeting_results">Resultado da reunião:</label>
+                    <select name="meeting_results" id="meeting_results" required></select>
+
+                    <button type="submit">Gerar Título</button>
+                </fieldset>
+            </form>
+    </div>
+    <div id="preview-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p id="modal-title">Título Gerado</p>
+            <div id="modal-preview"></div>
+            <button type="button" id="modal-copy-button">Copiar Título</button>
+        </div>
+    </div>
+    <script src="../meu-site/titlegen.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "version": "1",
+    "types": [
+        {"id": "001", "name": "Reunião marcada", "active": true},
+        {"id": "002", "name": "Reunião remarcada", "active": true},
+        {"id": "003", "name": "Reunião de proposta", "active": true}
+    ]
+}

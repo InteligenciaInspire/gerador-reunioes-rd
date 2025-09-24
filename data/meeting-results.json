@@ -1,0 +1,8 @@
+{
+    "version": "1",
+    "meeting_results": [
+        {"id": "001", "name": "Show", "active": true},
+        {"id": "002", "name": "No show", "active": true},
+        {"id": "003", "name": "Agendada", "active": true}
+    ]
+}

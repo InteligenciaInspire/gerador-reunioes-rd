@@ -1,0 +1,10 @@
+{
+    "version": "1",
+    "users": [
+        {"id": "001", "name": "Cássio Stall", "active": true},
+        {"id": "002", "name": "Júlio Cesar Chaves", "active": true},
+        {"id": "003", "name": "Daiane Vitória Urbanski", "active": true},
+        {"id": "004", "name": "Gestão", "active": true},
+        {"id": "005", "name": "Inteligência", "active": true}
+    ]
+}
