@@ -9,6 +9,8 @@
         {"id": "006", "name": "Rafaela Ferreira", "active": false},
         {"id": "007", "name": "Gleyce Elyn Kachuski", "active": false},
         {"id": "008", "name": "Cássio Stall", "active": true},
-        {"id": "009", "name": "Vinícius", "active": true}
+        {"id": "009", "name": "Vinícius", "active": true},
+        {"id": "010", "name": "André Maceno", "active": true},
+        {"id": "011", "name": "Evelyn Lima", "active": true}
     ]
 }
